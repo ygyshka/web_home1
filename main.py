@@ -358,6 +358,54 @@ class MyServer(BaseHTTPRequestHandler):
                 </div>
             </div>
         </main>
+        <main class="row mt-3 text-center">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Номер</th>
+                    <th scope="col">Название товара</th>
+                    <th scope="col">Цена за штуку</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Итоговая сумма</th>
+                    <th scope="col">Стутус заказа</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-info">
+                    <th scope="row">1</th>
+                    <td>Товар 1</td>
+                    <td>500</td>
+                    <td>10</td>
+                    <td>5000</td>
+                    <td>Новый</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">2</th>
+                    <td>Товар 2</td>
+                    <td>400</td>
+                    <td>5</td>
+                    <td>2000</td>
+                    <td>Обработка</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">3</th>
+                    <td>Товар 3</td>
+                    <td>800</td>
+                    <td>10</td>
+                    <td>8000</td>
+                    <td>Обработан</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">4</th>
+                    <td>Товар 4</td>
+                    <td>7000</td>
+                    <td>4</td>
+                    <td>28000</td>
+                    <td>Новый</td>
+                </tr>
+                </tbody>
+            </table>
+        </main>
     </div>
 
 </main>
